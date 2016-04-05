@@ -11,7 +11,7 @@ run:
 $ sudo pip install --upgrade pip
 ``` 
 ```{r, engine='sh', count_lines} 
-$ sudo python installme.py`
+$ sudo python installme.py
 ``` 
 ```{r, engine='sh', count_lines}
 $ sudo easy_install --upgrade numpy

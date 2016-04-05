@@ -5,6 +5,7 @@ def install(package):
 
 # Example
 if __name__ == '__main__':
-	install('numpy')
+    install('pandas')
+    install('numpy')
     install('matplotlib')
     install('scikit-learn')

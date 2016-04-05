@@ -26,10 +26,9 @@ plt.ylabel("grade")
 
 ################################################################################
 
-clf = KNeighborsClassifier(n_neighbors=10, weights='distance', algorithm='auto', leaf_size=30)  ##0.94 max wit this settings
+clf = KNeighborsClassifier(n_neighbors=3, weights='uniform', algorithm='ball_tree', leaf_size=10)  
+
 clf.fit(features_train, labels_train)
-print(features_test)
-print(labels_test)
 print(clf.score(features_test, labels_test))
 
 try:
